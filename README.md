@@ -28,6 +28,7 @@ user's specific questions.
 
 ## **Datasets**
 ### **1. SQuAD v2 (Stanford Question Answering Dataset)**
+https://huggingface.co/datasets/rajpurkar/squad_v2
 - A comprehensive dataset with rich contexts and corresponding questions and answers, filtered to include travel-related topics such as destinations, activities, and budget tips.
 
 ---
@@ -49,9 +50,12 @@ The chatbot utilizes a **Retrieval-Augmented Generation (RAG)** framework to del
    - **ChromadbRM**, leveraging M3 embeddings to fetch the most relevant contexts from the dataset.
 2. **Generator Model**: 
    - **Mistral 7B** via **Ollama**, generating coherent, context-driven responses.
+   https://huggingface.co/mistralai/Mistral-7B-v0.1
+   https://github.com/ollama/ollama
 3. **DSPy Framework**: 
    - Integrates retrieval and generation seamlessly for a unified user experience.
-
+   https://github.com/stanfordnlp/dspy
+   https://dspy.ai/
 ---
 
 ## **Examples**
