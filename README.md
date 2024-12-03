@@ -90,7 +90,7 @@ The chatbot's performance was rigorously evaluated using:
 
 ---
 
-## **How the Problem Was Addressed**
+## **Critical Thinking: How the Problem Was Addressed**
 1. **Dataset Integration**: Leveraged SQuAD v2 to provide structured and unstructured data relevant to travel.
 2. **RAG Pipeline Implementation**: Built a retrieval and generation pipeline using **DSPy** for precise, context-aware answers.
 3. **Performance Optimization**: Designed and implemented an evaluation pipeline to improve response quality using NLP metrics.
@@ -98,7 +98,7 @@ The chatbot's performance was rigorously evaluated using:
 
 ---
 
-## **Future Enhancements**
+## **Critical Thinking: Future Enhancements**
 1. **Dynamic Information Retrieval**: Integrate APIs for live data such as flight prices, events, and weather updates.
 2. **Enhanced Personalization**: Use advanced machine learning techniques to model user preferences.
 3. **Multimedia Features**: Incorporate images and videos to create a more immersive experience.
@@ -138,4 +138,6 @@ The chatbot's performance was rigorously evaluated using:
 - https://github.com/stanford-oval/genie_open_text
 - Tutorial: Retrieval-Augmented Generation (RAG): https://dspy.ai/tutorials/rag/
 - Build your own RAG and run it locally: Langchain + Ollama + Streamlit: https://dspy.ai/tutorials/rag/
+
+
 TravelBot AI is designed to make your travel planning seamless, efficient, and inspiring. 🚀
