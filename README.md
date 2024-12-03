@@ -48,6 +48,7 @@ The chatbot utilizes a **Retrieval-Augmented Generation (RAG)** framework to del
 
 1. **Retriever Model**: 
    - **ChromadbRM**, leveraging M3 embeddings to fetch the most relevant contexts from the dataset.
+   https://www.trychroma.com/
 2. **Generator Model**: 
    - **Mistral 7B** via **Ollama**, generating coherent, context-driven responses.
    https://huggingface.co/mistralai/Mistral-7B-v0.1
@@ -130,5 +131,6 @@ The chatbot's performance was rigorously evaluated using:
 ## **Acknowledgments**
 - **Datasets**: SQuAD v2
 - **Frameworks**: DSPy, ChromaDB, Mistral 7B.
+- **Wikichat**: This project is fully inspired by this iconic paper: https://github.com/stanford-oval/WikiChat
 
 TravelBot AI is designed to make your travel planning seamless, efficient, and inspiring. 🚀
