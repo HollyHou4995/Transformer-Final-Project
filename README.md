@@ -133,4 +133,9 @@ The chatbot's performance was rigorously evaluated using:
 - **Frameworks**: DSPy, ChromaDB, Mistral 7B.
 - **Wikichat**: This project is fully inspired by this iconic paper: https://github.com/stanford-oval/WikiChat
 
+
+## **Additional Resources**
+- https://github.com/stanford-oval/genie_open_text
+- Tutorial: Retrieval-Augmented Generation (RAG): https://dspy.ai/tutorials/rag/
+- Build your own RAG and run it locally: Langchain + Ollama + Streamlit: https://dspy.ai/tutorials/rag/
 TravelBot AI is designed to make your travel planning seamless, efficient, and inspiring. 🚀
