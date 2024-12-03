@@ -117,6 +117,7 @@ The chatbot's performance was rigorously evaluated using:
     !pip install scikit-learn
     !pip install peft
     !pip install -U FlagEmbedding
+    !pip install rouge-score nltk
   
   ```
 
