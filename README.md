@@ -8,23 +8,29 @@ TravelBot AI is a conversational assistant designed to inspire and assist travel
 ---
 
 ## **Problem Statement**
-Planning travel can often feel overwhelming due to the fragmented and excessive nature of online information. Searching for reliable travel insights can consume significant time, with results frequently falling short of user expectations. 
 
-Key challenges include:
-- Difficulty finding trustworthy, up-to-date travel information.
-- Time-intensive searches yielding results that may not match user needs.
-- Limited personalized travel recommendations.
-- Lack of creative and inspiring travel ideas.
+Planning travel can often feel overwhelming due to the fragmented and excessive nature of online information. Searching for reliable travel insights can consume significant time, with results frequently falling short of user expectations. Additionally, generative AI systems, while powerful, often suffer from hallucinations—instances where the model generates plausible-sounding but incorrect or unsupported answers. This can mislead users and further complicate the decision-making process for travelers.
 
-**TravelBot AI addresses these issues by:**
-1. Delivering reliable and personalized travel advice quickly.
-2. Aggregating accurate and targeted information tailored to the
-
-user's specific questions.
-3. Inspiring users with creative travel ideas and actionable suggestions.
-4. Reducing the complexity and effort involved in travel planning.
+### Key Challenges:
+1. **Difficulty Finding Trustworthy, Up-to-Date Travel Information**: Online content is vast and inconsistent, making it hard to locate reliable sources for accurate travel details.
+2. **Time-Intensive Searches**: Travelers often spend hours searching for relevant information, only to find that the results don’t match their specific needs.
+3. **Limited Personalization**: Generalized travel recommendations fail to consider user preferences, making them less actionable.
+4. **Lack of Creativity in Recommendations**: Users miss out on unique and inspiring travel ideas due to the generic nature of suggestions.
+5. **AI Hallucination Risks**: Language models may generate fabricated or unsupported information, potentially leading to poor decision-making and dissatisfaction.
 
 ---
+
+**TravelBot AI addresses these issues by:**
+1. **Delivering Reliable and Personalized Travel Advice Quickly**: Leveraging advanced retrieval-augmented generation (RAG) pipelines to provide accurate and relevant responses.
+2. **Aggregating Accurate and Targeted Information**: Combining curated datasets with state-of-the-art retrieval models ensures that users receive precise answers to their questions.
+3. **Inspiring Users with Creative Travel Ideas**: Going beyond generic advice by offering unique and lesser-known suggestions tailored to user preferences.
+4. **Reducing Complexity in Travel Planning**: Streamlining the process by providing instant, actionable insights.
+5. **Implementing a Fact-Checking Pipeline**: To combat AI hallucinations, TravelBot AI incorporates a robust fact-checking mechanism. This pipeline:
+   - Extracts claims from generated answers.
+   - Cross-verifies claims against retrieved evidence.
+   - Classifies claims as "Supported," "Not Supported," or "Insufficient Information."
+   - Ensures users receive only accurate and verified information. 
+
 
 ## **Datasets**
 ### **1. SQuAD v2 (Stanford Question Answering Dataset)**
